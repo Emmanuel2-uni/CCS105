@@ -13,6 +13,8 @@ const logger = (req, res, next) => {
 }
 
 app.use(logger);
+app.use(cors());
+app.use(express.json());
 
 
 const connection =  mysql.createConnection({
