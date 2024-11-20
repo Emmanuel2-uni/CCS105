@@ -4,6 +4,7 @@ const app = express()
 
 const mysql =  require("mysql")
 const moment = require("moment")
+const cors = require('cors')
 
 const PORT = process.env.PORT || 5001
 
